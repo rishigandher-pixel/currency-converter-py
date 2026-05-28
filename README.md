@@ -1,4 +1,4 @@
-# Python Currency Converter Utility
+# Python Currency Converter & Automation Utility Toolkit
 
 ## Description
 A lightweight, procedural Python command-line utility designed to handle user inputs, execute dynamic data-type casting, and perform algorithmic arithmetic calculations to deliver accurate multi-currency conversions. 
