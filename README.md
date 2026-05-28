@@ -14,3 +14,17 @@ A lightweight, procedural Python command-line utility designed to handle user in
 3. Execute the script via terminal or command prompt:
    ```bash
    python converter.py
+
+## Automation & Maintenance
+
+The repository includes a native PowerShell automation script, `Fix-ProjectExtensions.ps1`, designed to handle environment hygiene by programmatically auditing and correcting workspace file anomalies.
+
+### Automated Workspace Cleanup
+If local file extensions are altered or improperly appended during system-level text editing (e.g., creating artifact `.txt` extensions on core configuration files), this script automatically targets, tests, and repairs the file structure.
+
+#### How to Execute:
+1. Open a PowerShell terminal.
+2. Navigate to the root directory of the project.
+3. Execute the script:
+   ```powershell
+   .\Fix-ProjectExtensions.ps1
